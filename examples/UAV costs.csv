@@ -1,0 +1,15 @@
+Layout (RC Plane),Time to Fail,Time to Repair
+Electric Propulsion Motor,52,1
+Electric Propulsion Motor Mount,260,0.5
+Electric Propulsion Motor Mount Fastener,104,0.01
+Electrical Bus,52,2
+Data Logger,130,4
+Air Speed Sensor,100,2
+RPM Sensor ,100,2
+GPS Sensor ,100,2
+Altitude Sensor,100,2
+Transmitter,100,2
+Battery,100,2
+ESC,75,3
+Flap Actuation Motor,52,1
+Flap System ,260,6

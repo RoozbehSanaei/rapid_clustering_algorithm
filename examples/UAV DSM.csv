@@ -1,0 +1,15 @@
+"Layout (RC Plane)",Electric Propulsion Motor,Electric Propulsion Motor Mount,Electric Propulsion Motor Mount Fastener,Electrical Bus,Data Logger,Air Speed Sensor,RPM Sensor ,GPS Sensor ,Altitude Sensor,Transmitter,Battery,ESC,Flap Actuation Motor,Flap System 
+Electric Propulsion Motor,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Electric Propulsion Motor Mount,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Electric Propulsion Motor Mount Fastener,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+Electrical Bus,1,0,0,1,1,1,1,1,1,1,1,1,1,0
+Data Logger,0,0,0,0,1,1,1,1,1,0,0,0,0,0
+Air Speed Sensor,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+RPM Sensor ,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+GPS Sensor ,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+Altitude Sensor,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+Transmitter,0,0,0,1,0,0,0,0,0,1,1,1,0,0
+Battery,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ESC,1,0,0,0,0,0,0,0,0,0,0,1,0,0
+Flap Actuation Motor,0,0,0,1,0,0,0,0,0,0,0,0,1,1
+Flap System ,0,0,0,0,0,0,0,0,0,0,0,0,0,1

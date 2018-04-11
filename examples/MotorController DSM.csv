@@ -1,0 +1,23 @@
+,HV AC to 15 VDC ,Thermal conductor,Heat Sink,Rectifier,CAP,Voltage Divider,Shunt,Overcurrent and Under-voltage Protector Circuit,Bridge, 15 VDC to 5 VDC - A, 15 VDC to  5 VDC - B,Microcontroller,increase push button,decrease push button,Multiplexor,Status LED,Analog to Digital Conversion,Connector,R/C/Znr,Terminal B,Relay Contacts,Terminal A
+HV AC to 15 VDC ,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,1,0
+Thermal conductor,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Heat Sink,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Rectifier,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CAP,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Voltage Divider,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Shunt,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Overcurrent and Under-voltage Protector Circuit,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+Bridge,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ 15 VDC to 5 VDC - A,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+ 15 VDC to  5 VDC - B,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0
+Microcontroller,0,0,0,0,0,0,0,1,0,0,1,1,0,0,1,1,1,0,1,0,1,0
+increase push button,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+decrease push button,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Multiplexor,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0
+Status LED,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+Analog to Digital Conversion,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0
+Connector,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+Relay Contacts,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1
+Terminal A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+R/C/Znr,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0
+Terminal B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1

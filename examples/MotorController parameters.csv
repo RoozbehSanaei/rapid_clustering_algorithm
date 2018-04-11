@@ -1,0 +1,14 @@
+parameter,value
+DSM file,examples\MotorController DSM.csv
+constraints file,examples\MotorController constraints.csv
+costs file,
+pow_cc,1
+pow_bid,-2
+pow_dep,2
+rand_accept,44
+rand_bid,44
+number_of_iterations,44s
+stable_limit,2s
+number of threads,24s
+runs per thread,1000s
+multi objective,True

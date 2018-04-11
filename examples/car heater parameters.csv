@@ -1,0 +1,14 @@
+parameter,value
+DSM file,examples\car heater.csv
+constraints file,
+costs file,
+pow_cc,
+pow_bid,
+pow_dep,
+rand_accept,
+rand_bid,
+number_of_iterations,
+stable_limit,
+number of threads,
+runs per thread,
+multi objective,
