@@ -310,22 +310,19 @@ def read_parameters():
     try:
         parameters_filename = sys.argv[1]
     except:
-        parameters_filename = 'examples/dust buster parameters.csv'
+        parameters_filename = 'examples/contrast injector parameters.csv'
 
     # read parameters from parameter file
     parameters = [values[0] for values in read_matrix_without_header(parameters_filename)]
     # load DSM, constraints matrix and data matrix
     DSM = np.array(read_matrix_without_header(parameters[0])).astype(int)
+    constraints = np.array(read_matrix_without_header(parameters[0])).astype(int)
 
-    # set parameters as default values
-    constraints = np.ones(DSM.shape)
-    constraints[18, 19] = 0
-    constraints[19, 18] = 0
     data = []
     core_parameters = [1, -2, 2, 2 * DSM.shape[0], 2 * DSM.shape[0], 2 * DSM.shape[0], 2]
     number_of_threads = 1
-    runs_per_thread = 1000
-    multi_objective = True
+    runs_per_thread = 100000
+    multi_objective = False
 
 
     #if any parameter is given in correct form use that value otherwise leave it as default

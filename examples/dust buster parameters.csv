@@ -1,6 +1,6 @@
 parameter,value
-DSM file,examples\dust buster.csv
-constraints file,
+DSM file,examples\contrast injector DSM.csv
+constraints file,examples\contrast injector constraints.csv
 costs file,
 pow_cc,
 pow_bid,
