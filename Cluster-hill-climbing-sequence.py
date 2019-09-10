@@ -320,8 +320,8 @@ def read_parameters():
 
     data = []
     core_parameters = [1, -2, 2, 2 * DSM.shape[0], 2 * DSM.shape[0], 2 * DSM.shape[0], 2]
-    number_of_threads = 1
-    runs_per_thread = 100000
+    number_of_threads = 10
+    runs_per_thread = 1000000
     multi_objective = False
 
 
